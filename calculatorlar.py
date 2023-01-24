@@ -1,11 +1,11 @@
 import streamlit as st
-st.tittle('Calculadora de Peso')
+st.title('Calculadora de Peso')
 n1=st.number_input('Peso: ')
 n2=st.number_input('Qtd Solicitada: ')
 n3=(n1*0.10+n1)*n2
 st.write(f'O peso total é de {n3} ')
 
-st.tittle('Calculadora de Horas')
+st.title('Calculadora de Horas')
 n1 = st.number_input("Quantidade solicitada: ")
 n2 = st.number_input("Peças por hora: ")
 n3 = n1/n2
